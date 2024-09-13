@@ -1,7 +1,7 @@
 tool_ID = 'native:rastercalc'
 tool_name = 'Raster calculator'
 
-# provide a brief description (1 line) of the data source to inform AI whether need to use this data source.
+## provide a brief description (1 line) of the data source to inform AI whether need to use this data source.
 brief_description = '''
 This algorithm allows performing algebraic operations using raster layers.
 The resulting layer will have its values computed according to an expression. The expression can contain numerical values, operators and references to any of the layers in the current project
