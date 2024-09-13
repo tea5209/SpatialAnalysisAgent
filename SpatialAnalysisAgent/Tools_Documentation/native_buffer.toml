@@ -40,7 +40,7 @@ def buffer():
         'OUTPUT':'memory: buffered'}
     # Perform the extract by attribute operation
     result = processing.run("native:buffer", parameters)
-    # Load the selected features as a new layer
+    ## Load the selected features as a new layer
     output_layer = result['OUTPUT']
     QgsProject.instance().addMapLayer(output_layer)
 buffer()
